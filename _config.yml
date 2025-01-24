@@ -1,0 +1,57 @@
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# Users are expected to override these values in their own `_config.yml` file.
+# This is also the "master list" of all allowed keys and values.
+
+#######################################################################################
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: "Marine Survey Data: A Guide to Good Practice"
+author: |
+       Groom, D. and Niven, K. 2024. Marine Survey Data: A Guide to Good Practice. Archaeology Data Service. DOI: <a href="https://doi.org/10.5284/3y3w-g262">https://doi.org/10.5284/3y3w-g262</a>.
+copyright: "2024. Archaeology Data Service" # Copyright year to be placed in the footer
+logo: images/g2gp_signpost.png
+email: "help@archaeologydataservice.ac.uk"
+
+#######################################################################################
+# Execution settings
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: guides-ads-marinesurvey.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references2.bib
+
+# Configure bibliography to correct style (author, year)
+# sphinx:
+#  config:
+#    bibtex_reference_style: author_year
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/uoy-ads/guides-ads-marinesurvey # Online location of your book
+
+#######################################################################################
+# HTML-specific settings
+
+html:
+  favicon                   : "images/g2gp_signpost.png"  # A path to a favicon image
+  navbar_number_sections    : true  # Add a number to each section in your left navbar
+  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
+  use_repository_button     : true  # Whether to add an "Repository" button to pages. If `true`, repository information in repository: must be filled in
+  use_issues_button         : true # Whether to add an "Open issue" button to pages. If `true`, repository information in repository: must be filled in
+  use_edit_page_button      : true  # Whether to add an "Suggest edit" button to pages. If `true`, repository information in repository: must be filled in
+  baseurl                   : "https://archaeologydataservice.ac.uk/"  # The base URL where your book will be hosted. Used for creating image previews and social links. for example: https://mypage.com/mybook/
+ # extra_navbar              : 
+  extra_footer: |
+               The Archaeology Data Service makes all of their materials publicly available under  <a href="https://archaeologydataservice.ac.uk/help-guidance/data-reuse/">a creative commons license</a>.
+  comments:
+    hypothesis              : true

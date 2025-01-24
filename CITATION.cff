@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "To reference the latest version of this Guide to Good Practice, please cite it as below."
+authors:
+  - family-names: "Groom"
+    given-names: "Deanna"
+	orcid: "https://orcid.org/0000-0003-0084-613X"
+  - family-names: "Niven"
+    given-names: "Kieron"
+    orcid: "https://orcid.org/0000-0002-0537-9238"
+title: "Marine Survey Data A Guide to Good Practice"
+version: 1.0
+identifiers:
+  - description: The concept DOI for the collection containing all versions of the Citation File Format.
+    type: doi
+    value: "https://doi.org/10.5284/3y3w-g262"
+license: "CC-BY-4.0"
+date-released: "2025-01-17"
+url: "https://doi.org/10.5284/3y3w-g262"
+keywords:
+  - archaeology
+  - marine survey
+  - good practice
+  - guidelines
+  - reproducabilty
+doi: https://doi.org/10.5284/3y3w-g262
+references:
+  - type: manual

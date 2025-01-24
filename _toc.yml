@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+options:
+  numbered: true
+chapters:
+  - file: content/1-AimOfThisGuide
+  - file: content/2-CurrentArchivingProvision.md
+  - file: content/3-PlanningForTheCreation.md
+  - file: content/4-CreatingDigitalArchive.md
+  - file: content/5-MandE-NavigationPositionDatum.md
+  - file: content/6-MandE-MarineSurveyTechniques-Surface.md
+  - file: content/7-MandE-MarineSurveyTechniques-Below.md
+  - file: content/8-Bibliography.md
